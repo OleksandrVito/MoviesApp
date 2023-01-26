@@ -77,7 +77,7 @@ fun MovieItem(item: Movies, navController: NavController) {
                         text = "Genre: ",
                         fontWeight = FontWeight.Bold
                     )
-                    Text(text = item.rating.average.toString())
+//                    Text(text = item.rating.average.toString())
                     item.genres.take(2).forEach { Text(text = " $it ") }
                 }
                 Row {
